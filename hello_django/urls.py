@@ -89,9 +89,7 @@ urlpatterns = [
     path("circle/area", circleArea),
     path("circle/perimeter", circlePerimeter),
     path("rectangle/area/<int:height>/<int:width>", rectangleAreaWithParams),
-    path("rectangle/perimeter/<int:height>/<int:width>",
-         rectanglePerimeterWithParams),
+    path("rectangle/perimeter/<int:height>/<int:width>",rectanglePerimeterWithParams),
     path("circle/area/<int:radius>", circleAreaWithParams),
-    path("circle/perimeter/<int:radius>",
-         circlePerimeterWithParams),
+    path("circle/perimeter/<int:radius>", circlePerimeterWithParams),
 ]
